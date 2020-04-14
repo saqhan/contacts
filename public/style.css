@@ -30,7 +30,7 @@
 
 .darkTheme  .user-name {
     color: #fff;
-}
+} 
 
 .darkTheme .right-header button {
     color: #fff;
@@ -40,8 +40,12 @@
     box-shadow: 0 0 2px 1px #dbdbdb;
 }
 
-.light {
+.darkTheme .light {
     background-color: #dedede;
+}
+
+.jss1 {
+    background-color: #053f5e;
 }
 
 
@@ -61,6 +65,26 @@
         width: 315px;
         padding: 0px 0px;
     }
+    .blockModal {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: center;
+    }
+    .jss116 {
+        text-align: center;
+    }
+    .makeStyles-paper-84 {
+        text-align: center;}
+    
+        .btn-edit {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .btn-edit button {
+            margin-bottom: 10px;
+        }
 }
 
 .MuiTypography-body1 {
