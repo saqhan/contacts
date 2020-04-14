@@ -1,0 +1,95 @@
+.user-avatar {
+    width: 15%;
+}
+
+.user-avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.block-info {
+    width: 85%;
+}
+
+.user-more {
+    display: flex;
+    justify-content: space-between;
+}
+.user-more i {
+    color: #01329c;
+    font-size: 22px;
+}
+
+.darkTheme .user-more i {
+    color: #fff;
+    font-size: 22px;
+}
+.user-name {
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+}
+
+.user-info {
+    color: #828282;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-mess {
+
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.cart-mess:hover {
+    background-color: #dedede;
+}
+
+.delete-btn {
+    visibility: hidden;
+    visibility: hidden;
+    color: lightgray;
+    border: none;
+    font-size: 12px;
+    background-color: inherit;
+}
+
+.delete-btn:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.cart-mess:hover .delete-btn {
+    visibility: visible;
+}
+
+@media (max-width: 414px) {
+    .user-avatar {
+        width: 25%;
+    }
+    .block-info {
+        width: 75%;
+    }
+  }
+
+  .MuiListItemIcon-root .user-avatar  {
+      margin-right: 30px;
+  }
+  .MuiListItemIcon-root .user-avatar  img {
+      width: 80px;
+      height: 80px;
+  }
+  
+
+
+  .MuiButton-root {
+      padding: 5px 15px !important;
+      font-size: 12px !important;
+  }

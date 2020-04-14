@@ -1,0 +1,32 @@
+.blockModal {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.avatarModal {
+    margin-right: 30px;
+}
+
+.avatarModal img {
+    border-radius: 50%;
+}
+
+.infoModal {
+    margin-bottom: 30px;
+}
+
+.infoModal div {
+    margin-bottom: 10px;
+}
+
+.makeStyles-paper-84 {
+    width: 620px;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 20px 15px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);
+    background-color: #fff;
+}
+
+.btn-edit {
+    display: flex;
+    justify-content: space-around;
+}

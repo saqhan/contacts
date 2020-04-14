@@ -1,0 +1,68 @@
+
+
+.darkTheme {
+    background-color: #022c43;
+}
+
+.darkTheme .makeStyles-root-1 {
+    background-color: #053f5e;   
+}
+
+.darkTheme .MuiListItemIcon-root {
+    color: #fff;
+}
+
+.darkTheme .makeStyles-paper-84 {
+    background-color: #053f5e;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.darkTheme .chat-app {
+    background-color: #053f5e;
+    color: #fff;
+    margin: 2rem auto 0 auto;
+    max-width: 700px;
+    padding: 30px;
+    background-color: #053f5e;
+    box-shadow: 0px 0px 10px 1px #1b7db1;
+    border:none;
+}
+
+.darkTheme  .user-name {
+    color: #fff;
+}
+
+.darkTheme .right-header button {
+    color: #fff;
+}
+
+.darkTheme .form-input {
+    box-shadow: 0 0 2px 1px #dbdbdb;
+}
+
+.light {
+    background-color: #dedede;
+}
+
+
+@media (max-width: 414px) {
+    .darkTheme .user-avatar {
+        width: 25%;
+    }
+    .darkTheme .block-info {
+        width: 75%;
+    }
+
+    .darkTheme .chat-app {
+        padding: 10px;
+        margin: 20px;
+    }
+    .darkTheme .ItemAddForm {
+        width: 315px;
+        padding: 0px 0px;
+    }
+}
+
+.MuiTypography-body1 {
+    text-transform: capitalize;
+}

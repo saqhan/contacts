@@ -1,0 +1,16 @@
+
+.chat-app {
+    margin: 2rem auto 0 auto;
+    max-width: 700px;
+    border: 1px solid #eaeaea;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 26px 4px #969696;
+}
+
+@media (max-width: 414px) {
+    .chat-app {
+        padding: 10px;
+        margin: 20px;
+    }
+}

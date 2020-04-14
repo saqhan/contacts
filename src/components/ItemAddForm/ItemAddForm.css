@@ -1,0 +1,32 @@
+
+.ItemAddForm {
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.item-form {
+    max-width: 700px;
+       
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #0090ff;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 414px) {
+    .ItemAddForm {
+        width: 315px;
+        padding: 0px 0px;
+    }
+}

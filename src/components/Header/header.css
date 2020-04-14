@@ -1,0 +1,19 @@
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.left-header {
+    font-weight: 700;
+}
+
+.right-header button {
+    
+    color: #007bff;
+    border: none;
+    font-weight: 400;
+    background-color: inherit;
+}
