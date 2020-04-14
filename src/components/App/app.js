@@ -18,7 +18,7 @@ export default class App extends Component {
         {
           id: 1,
           name: "дональд трамп",
-          avatar: "http://saqhan.ru/img/app-react/trump.jpg",
+          avatar: "trump.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "trump1@mail.ru",
           deleted: false
@@ -26,7 +26,7 @@ export default class App extends Component {
         {
           id: 2,
           name: "макка межиева",
-          avatar: "http://saqhan.ru/img/app-react/makka.jpg",
+          avatar: "makka.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "makka@mail.ru",
           deleted: false
@@ -34,7 +34,7 @@ export default class App extends Component {
         {
           id: 3,
           name: "путин",
-          avatar: "http://saqhan.ru/img/app-react/putin.jpg",
+          avatar: "putin.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "putin@mail.ru",
           deleted: false
@@ -42,7 +42,7 @@ export default class App extends Component {
         {
           id: 4,
           name: "халк",
-          avatar: "http://saqhan.ru/img/app-react/halk.jpg",
+          avatar: "halk.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "halk@mail.ru",
           deleted: false
@@ -50,7 +50,7 @@ export default class App extends Component {
         {
           id: 5,
           name: "майк вазовски",
-          avatar: "http://saqhan.ru/img/app-react/adam.jpg",
+          avatar: "adam.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "mike@mail.ru",
           deleted: false
@@ -58,7 +58,7 @@ export default class App extends Component {
         {
           id: 6,
           name: "билл гейтс",
-          avatar: "http://saqhan.ru/img/app-react/bill.jpg",
+          avatar: "bill.jpg",
           number: "+ 7 (965) 954 00 34",
           email: "bill@mail.ru",
           deleted: false
