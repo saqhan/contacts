@@ -113,15 +113,8 @@ export default class App extends Component {
   }
 
   deletePeople(id) {
-    this.setState(({people}) => {
-      const index = people.findIndex(elem => elem.id === id);
-
-      const newArr = [...people.slice(0, index), ...people.slice(index + 1)];
-
-      return {
-        people: newArr
-      }
-
+    this.setState({
+      people: this.state.people.filter(el => el.id !== id)
     });
   };
 

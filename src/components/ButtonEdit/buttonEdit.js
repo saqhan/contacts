@@ -110,7 +110,7 @@ export default function ButtonEdit({ person, deletePeople, editName, editNumber,
                       <PhoneAndroidIcon />
                     </Grid>
                     <Grid item>
-                      <TextField id="input-with-icon-grid" label={number} onChange={changeNumber} />
+                      <TextField id="input-with-icon-grid-1" label={number} onChange={changeNumber} />
                     </Grid>
                   </Grid>
                 </div>
@@ -120,7 +120,7 @@ export default function ButtonEdit({ person, deletePeople, editName, editNumber,
                       <EmailIcon />
                     </Grid>
                     <Grid item>
-                      <TextField id="input-with-icon-grid" label={email} onChange={changeEmail} />
+                      <TextField id="input-with-icon-grid-2" label={email} onChange={changeEmail} />
                     </Grid>
                   </Grid>
                 </div>
