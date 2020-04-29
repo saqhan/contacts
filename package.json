@@ -1,5 +1,6 @@
 {
-  "name": "inr-contacts-app",
+  "name": "int-contacts-app",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
