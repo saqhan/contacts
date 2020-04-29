@@ -44,7 +44,11 @@
     background-color: #dedede;
 }
 
-.jss1 {
+.darkTheme .jss1 {
+    background-color: #053f5e !important;
+}
+
+.MuiList-root {
     background-color: #053f5e !important;
 }
 
