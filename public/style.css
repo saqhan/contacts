@@ -48,10 +48,9 @@
     background-color: #053f5e !important;
 }
 
-.MuiList-root {
+.darkTheme  .MuiList-padding {
     background-color: #053f5e !important;
 }
-
 
 @media (max-width: 414px) {
     .darkTheme .user-avatar {
