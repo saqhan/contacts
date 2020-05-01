@@ -1,3 +1,3 @@
-#Приложение Телефонная книга
+# Приложение Телефонная книга
 
-[Контакты](https://saqhan.github.io/contacts/)
+[Перейти к просмотру](https://saqhan.github.io/contacts/)
